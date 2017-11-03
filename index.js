@@ -47,7 +47,7 @@ var viewCart = () => {
   console.log(contents);
 }
 
-function total() {
+var total = () => {
   var total = 0;
 
   cart.forEach(function buildTotal(item) {
