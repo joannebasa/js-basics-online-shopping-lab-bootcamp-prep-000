@@ -9,7 +9,7 @@ var setCart = c => {
   return cart;
 }
 
-function addToCart(item) {
+var addToCart = item => {
   cart.push({[item]: Math.ceil(100 * Math.random())});
   console.log(`${item} has been added to your cart.`);
   return cart;
