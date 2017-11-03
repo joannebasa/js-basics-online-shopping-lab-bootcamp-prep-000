@@ -15,7 +15,7 @@ var addToCart = item => {
   return cart;
 }
 
-function viewCart() {
+var viewCart = () => {
   var contents = '';
 
   if (cart[0] === undefined) {
