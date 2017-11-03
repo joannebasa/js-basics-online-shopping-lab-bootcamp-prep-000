@@ -4,7 +4,7 @@ var getCart = () => {
  return cart;
 }
 
-function setCart(c) {
+var setCart = c => {
   cart = c;
   return cart;
 }
