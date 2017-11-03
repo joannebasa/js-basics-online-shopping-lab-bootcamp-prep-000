@@ -1,6 +1,6 @@
 var cart = [];
 
-function getCart() {
+var getCart = () => {
  return cart;
 }
 
